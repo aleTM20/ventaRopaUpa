@@ -34,6 +34,13 @@
     <build>
         <pluginManagement>
             <plugins>
+             
+             <plugin>
+        <groupId>com.heroku.sdk</groupId>
+        <artifactId>heroku-maven-plugin</artifactId>
+        <version>2.0.8</version>
+      </plugin>
+            
                 <plugin>
                     <!-- mvn clean install tomcat:run-war to deploy
                     Look for "Running war on http://xxx" and
